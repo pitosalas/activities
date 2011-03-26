@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="cherryColor">#FBD0FC</color>
+   <color name="bananaColor">#F9F9B2</color>
+   <color name="appleColor">#F9B2B2</color>
+   <color name="black">#000000</color>
+</resources>

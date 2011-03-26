@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:id="@+id/widget31"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@color/bananaColor"
+
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <TextView
+    android:id="@+id/banana_txt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:layout_weight="1"
+    android:padding="20px"
+    android:textColor="@color/black"
+    android:text="I am the Banana">
+  </TextView>
+  <ImageView
+    android:id="@+id/banana_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="center"
+    android:src="@drawable/banana"
+    android:padding="20sp"
+    android:layout_gravity="center">
+  </ImageView>
+
+  <LinearLayout
+    android:id="@+id/widget33"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:padding="2px">
+    <Button
+      android:id="@+id/banana_btn1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="Go to Apple">
+    </Button>
+    <Button
+      android:id="@+id/banana_btn2"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="Go To Cherry">
+    </Button>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:padding="10px"
+      android:background="@color/bananaColor"
+      android:textColor="@color/black"
+      android:id="@+id/banana_activity_Log">
+    </TextView>
+  </LinearLayout>
+</LinearLayout>

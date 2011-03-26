@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, Apple!</string>
-    <string name="app_name">activities</string>
+    <string name="app_name">Activity Lab</string>
+    <string name="apple_name">Apple Activity</string>
+    <string name="cherry_name">Cherry Activity</string>
+    <string name="banana_name">Banana Activity</string>
+    
 </resources>

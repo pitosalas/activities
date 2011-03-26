@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  android:id="@+id/widget31"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="@color/appleColor"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <TextView
+    android:id="@+id/apple_txt"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:textColor="@color/black"
+    android:layout_weight="1"
+    android:padding="20px"
+    android:text="I am the Apple">
+  </TextView>
+  <ImageView
+    android:id="@+id/apple_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scaleType="center"
+    android:src="@drawable/apple"
+    android:padding="20sp"
+    android:layout_gravity="center">
+  </ImageView>
+  <LinearLayout
+    android:id="@+id/widget33"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:padding="2px"
+    >
+    <Button
+      android:id="@+id/apple_btn1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="Go to Banana">
+    </Button>
+    <Button
+      android:id="@+id/apple_btn2"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="Go To Cherry">
+    </Button>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:padding="10px"
+      android:background="@color/appleColor"
+      android:textColor="@color/black"
+      android:id="@+id/apple_activity_log">
+    </TextView>
+  </LinearLayout>
+</LinearLayout>
